@@ -22,6 +22,7 @@
 		74BD1F8D1816AF4500739C64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD1F6C1816AF4400739C64 /* UIKit.framework */; };
 		74BD1F951816AF4500739C64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74BD1F931816AF4500739C64 /* InfoPlist.strings */; };
 		74BD1F971816AF4500739C64 /* copiiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BD1F961816AF4500739C64 /* copiiTests.m */; };
+		74BD1FA21816B51A00739C64 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BD1FA11816B51A00739C64 /* GameViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		74BD1F921816AF4500739C64 /* copiiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "copiiTests-Info.plist"; sourceTree = "<group>"; };
 		74BD1F941816AF4500739C64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		74BD1F961816AF4500739C64 /* copiiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = copiiTests.m; sourceTree = "<group>"; };
+		74BD1FA01816B51A00739C64 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		74BD1FA11816B51A00739C64 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				74BD1F771816AF4400739C64 /* AppDelegate.h */,
 				74BD1F781816AF4400739C64 /* AppDelegate.m */,
 				74BD1F7A1816AF4500739C64 /* Main_iPhone.storyboard */,
+				74BD1FA01816B51A00739C64 /* GameViewController.h */,
+				74BD1FA11816B51A00739C64 /* GameViewController.m */,
 				74BD1F7D1816AF4500739C64 /* Main_iPad.storyboard */,
 				74BD1F801816AF4500739C64 /* ViewController.h */,
 				74BD1F811816AF4500739C64 /* ViewController.m */,
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74BD1FA21816B51A00739C64 /* GameViewController.m in Sources */,
 				74BD1F821816AF4500739C64 /* ViewController.m in Sources */,
 				74BD1F791816AF4400739C64 /* AppDelegate.m in Sources */,
 				74BD1F751816AF4400739C64 /* main.m in Sources */,
