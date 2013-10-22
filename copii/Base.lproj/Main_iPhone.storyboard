@@ -86,6 +86,20 @@
                                     <action selector="userDidPressedButton:" destination="wPa-lY-eHn" eventType="touchUpInside" id="93K-0k-wYZ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uN0-np-RTj">
+                                <rect key="frame" x="111" y="60" width="98" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copii Length" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rwT-Y4-nw5">
+                                <rect key="frame" x="111" y="31" width="98" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -93,6 +107,7 @@
                     <connections>
                         <outlet property="bottomButton" destination="uUa-AL-xad" id="3ng-5i-zg9"/>
                         <outlet property="leftButton" destination="2gy-Zt-ikk" id="bZL-ZZ-wWe"/>
+                        <outlet property="levelCounter" destination="uN0-np-RTj" id="BCZ-a3-510"/>
                         <outlet property="rightButton" destination="qgj-mz-xEw" id="esV-up-65S"/>
                         <outlet property="topButton" destination="VSW-2m-R2q" id="q92-dL-beo"/>
                         <outlet property="view" destination="Roc-im-OJF" id="rpT-b1-5Am"/>

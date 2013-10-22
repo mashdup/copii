@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GameViewController : UIViewController {
+@interface GameViewController : UIViewController <UIAlertViewDelegate>{
     IBOutlet UIButton *topButton;
     IBOutlet UIButton *rightButton;
     IBOutlet UIButton *bottomButton;
     IBOutlet UIButton *leftButton;
+    IBOutlet UILabel *levelCounter;
 }
 
 - (IBAction)userDidPressedButton:(id)sender;

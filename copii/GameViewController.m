@@ -69,6 +69,7 @@
         _amountToAdd--;
         [self addNewAnswer];
     } else {
+        levelCounter.text = [NSString stringWithFormat:@"%d",[_referenceArray count]];
         _answerArray = [_referenceArray mutableCopy];
         [self animateQuestionFromIndex:0];
     }
@@ -102,12 +103,19 @@
         [_answerArray removeObjectAtIndex:0];
     }else {
         NSLog(@"FAIL");
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Nope" message:[NSString stringWithFormat:@"You managed to reach a copii length of %d",[_referenceArray count]] delegate:self cancelButtonTitle:nil otherButtonTitles:@"Aww, shucks", nil];
+        [alert show];
+        [_referenceArray removeAllObjects];
+        _amountToAdd = 4;
     }
     if ([_answerArray count] == 0){
         _amountToAdd =1;
         NSLog(@"Done!");
-        [self addNewAnswer];
+        [self performSelector:@selector(addNewAnswer) withObject:Nil afterDelay:1.];
     }
 }
 
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex {
+    [self performSelector:@selector(addNewAnswer) withObject:Nil afterDelay:1.];
+}
 @end
