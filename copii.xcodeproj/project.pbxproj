@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		745F020C1816D2E200BDD1C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745F020B1816D2E200BDD1C2 /* AVFoundation.framework */; };
 		74BD1F691816AF4400739C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD1F681816AF4400739C64 /* Foundation.framework */; };
 		74BD1F6B1816AF4400739C64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD1F6A1816AF4400739C64 /* CoreGraphics.framework */; };
 		74BD1F6D1816AF4400739C64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD1F6C1816AF4400739C64 /* UIKit.framework */; };
@@ -23,6 +24,10 @@
 		74BD1F951816AF4500739C64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 74BD1F931816AF4500739C64 /* InfoPlist.strings */; };
 		74BD1F971816AF4500739C64 /* copiiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BD1F961816AF4500739C64 /* copiiTests.m */; };
 		74BD1FA21816B51A00739C64 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74BD1FA11816B51A00739C64 /* GameViewController.m */; };
+		74BD1FA91816CE3900739C64 /* A3-220.0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74BD1FA51816CE3900739C64 /* A3-220.0.mp3 */; };
+		74BD1FAA1816CE3900739C64 /* B4-493.88.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74BD1FA61816CE3900739C64 /* B4-493.88.mp3 */; };
+		74BD1FAB1816CE3900739C64 /* D4-293.66.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74BD1FA71816CE3900739C64 /* D4-293.66.mp3 */; };
+		74BD1FAC1816CE3900739C64 /* G4-392.0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74BD1FA81816CE3900739C64 /* G4-392.0.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		745F020B1816D2E200BDD1C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		74BD1F651816AF4400739C64 /* copii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = copii.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BD1F681816AF4400739C64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74BD1F6A1816AF4400739C64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,6 +64,11 @@
 		74BD1F961816AF4500739C64 /* copiiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = copiiTests.m; sourceTree = "<group>"; };
 		74BD1FA01816B51A00739C64 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
 		74BD1FA11816B51A00739C64 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		74BD1FA31816CCD100739C64 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		74BD1FA51816CE3900739C64 /* A3-220.0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A3-220.0.mp3"; sourceTree = "<group>"; };
+		74BD1FA61816CE3900739C64 /* B4-493.88.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "B4-493.88.mp3"; sourceTree = "<group>"; };
+		74BD1FA71816CE3900739C64 /* D4-293.66.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "D4-293.66.mp3"; sourceTree = "<group>"; };
+		74BD1FA81816CE3900739C64 /* G4-392.0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "G4-392.0.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				745F020C1816D2E200BDD1C2 /* AVFoundation.framework in Frameworks */,
 				74BD1F6B1816AF4400739C64 /* CoreGraphics.framework in Frameworks */,
 				74BD1F6D1816AF4400739C64 /* UIKit.framework in Frameworks */,
 				74BD1F691816AF4400739C64 /* Foundation.framework in Frameworks */,
@@ -106,6 +118,8 @@
 		74BD1F671816AF4400739C64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				745F020B1816D2E200BDD1C2 /* AVFoundation.framework */,
+				74BD1FA31816CCD100739C64 /* AudioToolbox.framework */,
 				74BD1F681816AF4400739C64 /* Foundation.framework */,
 				74BD1F6A1816AF4400739C64 /* CoreGraphics.framework */,
 				74BD1F6C1816AF4400739C64 /* UIKit.framework */,
@@ -117,6 +131,7 @@
 		74BD1F6E1816AF4400739C64 /* copii */ = {
 			isa = PBXGroup;
 			children = (
+				74BD1FAD1816CE3E00739C64 /* audio files */,
 				74BD1F771816AF4400739C64 /* AppDelegate.h */,
 				74BD1F781816AF4400739C64 /* AppDelegate.m */,
 				74BD1F7A1816AF4500739C64 /* Main_iPhone.storyboard */,
@@ -158,6 +173,17 @@
 				74BD1F931816AF4500739C64 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		74BD1FAD1816CE3E00739C64 /* audio files */ = {
+			isa = PBXGroup;
+			children = (
+				74BD1FA51816CE3900739C64 /* A3-220.0.mp3 */,
+				74BD1FA61816CE3900739C64 /* B4-493.88.mp3 */,
+				74BD1FA71816CE3900739C64 /* D4-293.66.mp3 */,
+				74BD1FA81816CE3900739C64 /* G4-392.0.mp3 */,
+			);
+			name = "audio files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,8 +264,12 @@
 			files = (
 				74BD1F7F1816AF4500739C64 /* Main_iPad.storyboard in Resources */,
 				74BD1F841816AF4500739C64 /* Images.xcassets in Resources */,
+				74BD1FAA1816CE3900739C64 /* B4-493.88.mp3 in Resources */,
 				74BD1F7C1816AF4500739C64 /* Main_iPhone.storyboard in Resources */,
 				74BD1F731816AF4400739C64 /* InfoPlist.strings in Resources */,
+				74BD1FAB1816CE3900739C64 /* D4-293.66.mp3 in Resources */,
+				74BD1FAC1816CE3900739C64 /* G4-392.0.mp3 in Resources */,
+				74BD1FA91816CE3900739C64 /* A3-220.0.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +510,7 @@
 				74BD1F9C1816AF4500739C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		74BD1F9D1816AF4500739C64 /* Build configuration list for PBXNativeTarget "copiiTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +519,7 @@
 				74BD1F9F1816AF4500739C64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
