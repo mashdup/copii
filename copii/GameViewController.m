@@ -69,7 +69,7 @@
         _amountToAdd--;
         [self addNewAnswer];
     } else {
-        levelCounter.text = [NSString stringWithFormat:@"%d",[_referenceArray count]];
+        levelCounter.text = [NSString stringWithFormat:@"%@",[NSNumber numberWithInteger:[_referenceArray count]]];
         _answerArray = [_referenceArray mutableCopy];
         [self animateQuestionFromIndex:0];
     }

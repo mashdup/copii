@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		745F020C1816D2E200BDD1C2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745F020B1816D2E200BDD1C2 /* AVFoundation.framework */; };
+		74840E0E181E7C3400AE19F1 /* CopiiSpotButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 74840E0D181E7C3400AE19F1 /* CopiiSpotButton.m */; };
 		74BD1F691816AF4400739C64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD1F681816AF4400739C64 /* Foundation.framework */; };
 		74BD1F6B1816AF4400739C64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD1F6A1816AF4400739C64 /* CoreGraphics.framework */; };
 		74BD1F6D1816AF4400739C64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74BD1F6C1816AF4400739C64 /* UIKit.framework */; };
@@ -42,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		745F020B1816D2E200BDD1C2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		74840E0C181E7C3400AE19F1 /* CopiiSpotButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopiiSpotButton.h; sourceTree = "<group>"; };
+		74840E0D181E7C3400AE19F1 /* CopiiSpotButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopiiSpotButton.m; sourceTree = "<group>"; };
 		74BD1F651816AF4400739C64 /* copii.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = copii.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74BD1F681816AF4400739C64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		74BD1F6A1816AF4400739C64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -140,6 +143,8 @@
 				74BD1F7D1816AF4500739C64 /* Main_iPad.storyboard */,
 				74BD1F801816AF4500739C64 /* ViewController.h */,
 				74BD1F811816AF4500739C64 /* ViewController.m */,
+				74840E0C181E7C3400AE19F1 /* CopiiSpotButton.h */,
+				74840E0D181E7C3400AE19F1 /* CopiiSpotButton.m */,
 				74BD1F831816AF4500739C64 /* Images.xcassets */,
 				74BD1F6F1816AF4400739C64 /* Supporting Files */,
 			);
@@ -233,6 +238,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = 8BitDog;
 				TargetAttributes = {
+					74BD1F641816AF4400739C64 = {
+						DevelopmentTeam = BDU2WRE6PL;
+					};
 					74BD1F881816AF4500739C64 = {
 						TestTargetID = 74BD1F641816AF4400739C64;
 					};
@@ -289,6 +297,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74BD1FA21816B51A00739C64 /* GameViewController.m in Sources */,
+				74840E0E181E7C3400AE19F1 /* CopiiSpotButton.m in Sources */,
 				74BD1F821816AF4500739C64 /* ViewController.m in Sources */,
 				74BD1F791816AF4400739C64 /* AppDelegate.m in Sources */,
 				74BD1F751816AF4400739C64 /* main.m in Sources */,
@@ -428,10 +437,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "copii/copii-Prefix.pch";
 				INFOPLIST_FILE = "copii/copii-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -441,10 +453,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "copii/copii-Prefix.pch";
 				INFOPLIST_FILE = "copii/copii-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

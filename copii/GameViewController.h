@@ -7,12 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CopiiSpotButton.h"
 
 @interface GameViewController : UIViewController <UIAlertViewDelegate>{
-    IBOutlet UIButton *topButton;
-    IBOutlet UIButton *rightButton;
-    IBOutlet UIButton *bottomButton;
-    IBOutlet UIButton *leftButton;
+    IBOutlet CopiiSpotButton *topButton;
+    IBOutlet CopiiSpotButton *rightButton;
+    IBOutlet CopiiSpotButton *bottomButton;
+    IBOutlet CopiiSpotButton *leftButton;
     IBOutlet UILabel *levelCounter;
 }
 
